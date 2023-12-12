@@ -1,0 +1,44 @@
+body{
+    width: 600px;
+    margin: auto;
+    text-align: center;
+    background-color: grey;
+}
+
+form{
+    margin-top: 100px;
+    margin-bottom: 30px;
+    background-color: black;
+    padding:15px;
+    color: white;
+    border-radius: 8px;
+}
+
+img{
+    width: 250px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+/* Div som innehåller info om länderna "Start"*/
+.divBorder{ 
+    border: 3px solid black;
+   margin: 20px 0;
+    border-radius: 8px;
+}
+/* Div som innehåller info om länderna "End"*/
+
+button{
+    background-color: yellow;
+    border: none;
+    border-radius: 8px;
+    padding: 5px;
+    margin-left: 4px;
+    font-weight: bold;
+}
+
+p{
+    font-weight: bold;
+}
+
+

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <script src="./JS/scrips.js" defer></script>
+    <title>Miniprojekt Country</title>
+</head>
+<body>
+    <form>
+        <!-- User input -->
+        <input type="text" id="userInput">
+
+        <!-- Radio button när användare vill söka land via name -->
+        <input type="radio" id="name" name="radioBtn" value="landName">
+        <label for="name">Name</label>
+
+        <!-- Radio button när användare vill söka land via språk -->
+        <input type="radio" id="language" name="radioBtn" value="languageName">
+        <label for="language">Language</label>
+        
+        <button>Get Country</button>
+    </form>
+    <!-- Tomt div som kommer att innehålla länderna information -->
+    <div id="container"></div>
+</body>
+</html>
